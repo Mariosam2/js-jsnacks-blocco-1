@@ -2,7 +2,7 @@
 Il software stampa prima la parola più corta, poi la parola più lunga. */
 const container = document.querySelector('.container');
 const firstWord = prompt('Inserisci una parola');
-const secondWord = prompt('Inserisci un/altra parola');
+const secondWord = prompt('Inserisci un\'altra parola');
 
 const firstEl = document.createElement('div');
 const secondEl = document.createElement('div')
