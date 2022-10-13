@@ -13,11 +13,9 @@ const userName = prompt('Inserisci il tuo nome');
 let i = 0;
 let isInvited;
 while(i < guestsArray.length){
-    if(userName === guestsArray[i]){
+    if(userName.toLocaleLowerCase() === guestsArray[i].toLocaleLowerCase()){
         isInvited = true;
-    } else {
-        isInvited = false;
-    }
+    } 
     i++;
     
 }
